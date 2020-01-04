@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FictionBookReader</string>
+    <string name="ok">ok</string>
+    <string name="openfiledialog_path">path</string>
+    <string name="openfiledialog_open_file_button_label">open file</string>
+    <string name="openfiledialog_open_file_with_folder_button_label">open folder</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
