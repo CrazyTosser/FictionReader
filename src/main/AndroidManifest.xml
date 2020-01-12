@@ -12,18 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".BookActivity"
-            android:label="@string/title_activity_book"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:launchMode="singleInstance">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.zhmyr.reader.MainActivity" />
-        </activity>
-        <activity android:name=".MainActivity"
-            android:launchMode="singleInstance">
+        <activity android:name=".ReaderActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
